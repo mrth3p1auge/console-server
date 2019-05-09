@@ -1,0 +1,2 @@
+@hourly /root/com-list.sh ; chgrp users /tmp/com-menu.txt
+
