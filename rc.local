@@ -1,0 +1,17 @@
+#
+# rc.local
+#
+#
+#////////////  Added for Serial Console \\\\\\\\\\\\\\\
+#               chris.scutt@gmail.com
+#
+# This is where we all share a tmux for minicom
+tmux -S /tmp/muxcon new-session -d -s soob ; chgrp users /tmp/muxcon
+
+##
+# Lets build the first menu, this makes sure it is there after
+# a reboot since we house this in /tmp
+/root/com-list.sh ; chgrp users /tmp/com-menu.txt
+
+# ////////////////// End Addition for Serial Console \\\\\\\\\\\\\
+
