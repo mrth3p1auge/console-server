@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#
+# Location : /root
 #  This script is used to produce a list
 #   of avaiale minicom configs.
 #
