@@ -1,0 +1,9 @@
+# Location  /etc/minicom
+#     04/11/2019   chris.scutt@gmail.com
+#
+#pu port             /dev/ttyACM0
+pu port             /dev/ttyUSB0
+pu baudrate         9600
+pu bits             8
+pu parity           N
+pu stopbits         1
