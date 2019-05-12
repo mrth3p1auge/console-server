@@ -8,7 +8,7 @@ readonly.
 * minicom
 * tmux
 
-** Debin **
+__Debian Install__
 ``` Bash
 sudo apt install minicom tmux
 ```
