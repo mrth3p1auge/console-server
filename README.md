@@ -8,4 +8,6 @@ readonly.
 * minicom
 * tmux
 
-
+``` Bash
+sudo apt install minicom tmux
+```
